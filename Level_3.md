@@ -55,4 +55,7 @@ function encrypt($str)
   <img src="http://i.imgur.com/0Pe47fY.jpg">
   
   Username: 	Admin
+  
   Password:   thisisaverysecurepasswordEEE5rt
+
+The password for the next level is: there_is_no_bug 
