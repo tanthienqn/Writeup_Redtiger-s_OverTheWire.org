@@ -18,5 +18,6 @@ for i in range(1,27):
 			break
 print ketqua
 ```
-keyword: killstickswithbr1cks!
-The password for the next level is: there_is_a_truck 
+keyword: `killstickswithbr1cks!`
+
+The password for the next level is: `there_is_a_truck` 
